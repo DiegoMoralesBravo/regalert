@@ -8,7 +8,7 @@ import { SignUp } from './components/SignUp/SignUp'
 import { Contact } from './components/Contact/Contact'
 
 function App() {
-  const [user, setUser] = useState('')
+  const [user, setUser] = useState('Diego')
   const [visibleLogIn, setVisibleLogIn] = useState(false);
   const [visibleSignUp, setVisibleSignUp] = useState(false);
   const [visibleContact, setVisibleContact] = useState(false);
